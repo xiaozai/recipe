@@ -177,6 +177,14 @@ tech-trend-analyzer/
 - **状态管理**: Zustand
 - **AI**: 支持 Anthropic、OpenAI API
 
+## TODO
+
+1. **关键词云滚动更新闪烁引起页面闪烁** - 需要优化关键词云组件的渲染逻辑
+2. **分析结果区域为空白，未正常显示结果** - 需要检查 API 返回数据结构与前端渲染逻辑
+3. **机会区域需要进一步优化** - 增加可行性分析、技术方案等内容
+4. **设置页面需要增加 GitHub、Reddit 等配置** - 添加 GitHub Token、Reddit Client ID/Secret 等第三方平台的 API 密钥配置选项
+5. **搜索源支持用户自定义** - 支持用户添加自定义数据源，如 arXiv、公众号等
+
 ## License
 
 MIT
